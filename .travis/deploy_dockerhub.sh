@@ -1,8 +1,10 @@
 #!/bin/sh
-#docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-docker login -u $DOCKER_USER -p $DOCKER_PASS
 
-echo "TRAVIS_REPO_SLUG" $TRAVIS_REPO_SLUG
+#
+# Hint: use \ to escape special characters!
+#
+
+docker login -u $DOCKER_USER -p $DOCKER_PASS
 
 if [ "$TRAVIS_BRANCH" = "master" ]; then
     TAG="latest"

@@ -2,8 +2,6 @@
 
 import random
 
-#Change to t-shoot pushing to docker:3
-
 buzz = ('continuous testing', 'continuous integration',
     'continuous deployment', 'continuous improvement', 'devops')
 adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
