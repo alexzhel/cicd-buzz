@@ -1,3 +1,8 @@
+notifications:
+  email:
+    - a.zhelnitskiy@gmail.com
+
+
 sudo: required
 
 services:
